@@ -115,7 +115,8 @@ body > .infoAndUpNext > .info {
   margin-right: var(--padding);
 }
 
-.info .metadata .titleAndButton .title.clamp {
+.info .metadata .titleAndButton .title.clamp { 
+  /* 평소엔 class 에 toggle 을 달아 놓고 btn을 누를때 toggle을 이용하여 .clamp 를 제거하여, 전체글  */
   /* 라인 제한 CSS clamp */
   /* https://developer.mozilla.org/ko/docs/Web/CSS/-webkit-line-clamp */
   display: -webkit-box;
